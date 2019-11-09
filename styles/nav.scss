@@ -13,7 +13,7 @@ nav {
     padding-inline-end: 1rem;
 
     li.nav-logo {
-      width: 80%;
+      width: 90%;
 
       img {
         width: 3rem;
@@ -27,7 +27,6 @@ nav {
     }
 
     li {
-      width: 5%;
 
       display: flex;
       padding: 6px 8px;
@@ -36,7 +35,7 @@ nav {
         font-size: 1rem !important;
         color: black;
         text-decoration: none;
-        font-size: 13px;
+        font-size: 1.2rem !important;
         padding: 1rem 0;
       }
     }
