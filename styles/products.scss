@@ -1,0 +1,60 @@
+.warp-products {
+  min-width: 100%;
+  width: auto;
+  min-height: 100vh;
+  height: auto;
+
+  .products-text {
+    margin: 1rem;
+    display: flex;
+
+    .content-form {
+      width: 30%;
+    }
+    .content-list {
+      width: 70%;
+      padding-left: 5rem;
+    }
+  }
+
+  .products-content {
+    display: flex;
+    margin: 1rem;
+
+    .content-form {
+      width: 30%;
+      height: 65vh;
+
+      border: 1px solid;
+      border-radius: 1rem;
+
+      form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        .rs-form-group {
+          .rs-control-label {
+            color: black;
+          }
+        }
+
+        .input-img {
+          margin-bottom: 24px;
+          p {
+            margin-bottom: 1rem;
+          }
+          input {
+            width: 300px;
+          }
+        }
+      }
+    }
+
+    .content-list {
+      width: 70%;
+      padding-left: 5rem;
+    }
+  }
+}

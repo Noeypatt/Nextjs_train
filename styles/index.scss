@@ -78,7 +78,15 @@
         margin: 0.5rem;
         .rs-panel{
             margin: 0 1rem;
+
+            .rs-panel-body{
+              img{
+                width: 100%;
+              }
+            }
         }
+
+
     }
   }
 }
